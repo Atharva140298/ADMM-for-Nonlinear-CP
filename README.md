@@ -1,7 +1,7 @@
 # ADMM for Nonlinear CP Decompositions (NCP)
 
 Given a data tensor $\mathcal{X} \in \mathbb{R}^{I \times J \times K}$ and a
-rank $R$, we solve the nonlinear CP decomposition problem
+rank $R$, we solve the nonlinear CP decomposition
 
 $$ \min_{ A \, B \, C \in \mathcal{C} \,\mathcal{T}}\ d\bigl(\mathcal{X} \, f(\mathcal{T})\bigr)
 \quad \text{s.t.} \quad
