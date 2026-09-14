@@ -16,7 +16,7 @@ where
 * $\mathcal{T} \in \mathbb{R}^{I \times J \times K}$ is a rank-$R$ tensor,
 * $A \in \mathbb{R}^{I \times R}$, $B \in \mathbb{R}^{J \times R}$ and
   $C \in \mathbb{R}^{K \times R}$ are the factor matrices, and
-  $[\![A,B,C]\!] = \sum_{r=1}^{R} a_r \circ b_r \circ c_r$.
+  $[\[A,B,C]\] = \sum_{r=1}^{R} a_r \circ b_r \circ c_r$.
 
 The factor matrices may additionally be constrained to be nonnegative.
 
@@ -32,7 +32,7 @@ The factor matrices may additionally be constrained to be nonnegative.
 
 * **Frobenius norm**
 
-$$\|\mathcal{X} - f(\mathcal{T})\|_F
+$$\||\mathcal{X} - f(\mathcal{T})\||_F
 = \sqrt{\sum_{i,j,k}\bigl(x_{ijk} - [f(\mathcal{T})]_{ijk}\bigr)^2}$$
 
 * **$\ell_1$ norm**
