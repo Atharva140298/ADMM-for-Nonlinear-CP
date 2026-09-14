@@ -50,7 +50,7 @@ y, & x = 0,
 \end{cases}
 \qquad
 \mathrm{KL}(\mathcal{X}, f(\mathcal{T})) =
-\sum_{i,j,k} d_{\mathrm{KL}}\bigl(x_{ijk},\, [f(\mathcal{T})]_{ijk}\bigr)
+\sum_{i,j,k} d_{\mathrm{KL}}\bigl(x_{ijk} \, [f(\mathcal{T})]_{ijk}\bigr)
 $$
 
 ## Algorithm
