@@ -3,11 +3,9 @@
 Given a data tensor $\mathcal{X} \in \mathbb{R}^{I \times J \times K}$ and a
 rank $R$, we solve the nonlinear CP decomposition problem
 
-$$
-\min_{ A \, B \, C \in \mathcal{C} \,\mathcal{T}}\ d\bigl(\mathcal{X} \, f(\mathcal{T})\bigr)
+$$ \min_{ A \, B \, C \in \mathcal{C} \,\mathcal{T}}\ d\bigl(\mathcal{X} \, f(\mathcal{T})\bigr)
 \quad \text{s.t.} \quad
-\mathcal{T} = [\[A, B, C]\]
-$$
+\mathcal{T} = [ \[A, B, C] \] $$
 
 where
 
