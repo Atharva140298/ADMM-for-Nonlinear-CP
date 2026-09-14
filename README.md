@@ -22,10 +22,10 @@ The factor matrices may additionally be constrained to be nonnegative.
 
 ## Nonlinear models $f(\mathcal{T})$
 
-* **ReLU** &nbsp; $f(\mathcal{T}) = \max(0,\, \mathcal{T})$
+* **ReLU** &nbsp; $f(\mathcal{T}) = \max(0 \, \mathcal{T})$
 * **CSF** (elementwise square) &nbsp; $f(\mathcal{T}) = \mathcal{T} \odot \mathcal{T}$
 * **Min–Max** &nbsp; with bounds $a \le b$: &nbsp;
-  $f(\mathcal{T}) = \min\bigl(b,\, \max(a,\, \mathcal{T})\bigr)$
+  $f(\mathcal{T}) = \min\bigl(b \, \max(a \, \mathcal{T})\bigr)$
 * **Modulus** &nbsp; $f(\mathcal{T}) = |\mathcal{T}|$
 
 ## Loss functions $d(\mathcal{X}, f(\mathcal{T}))$
@@ -45,7 +45,7 @@ $$\|\mathcal{X} - f(\mathcal{T})\|_1
 $$
 d_{\mathrm{KL}}(x,y) =
 \begin{cases}
-x\log\!\left(\dfrac{x}{y}\right) - x + y, & x > 0,\\[4pt]
+x\log\ \left(\dfrac{x}{y}\right) - x + y, & x > 0,\\ 
 y, & x = 0,
 \end{cases}
 \qquad
