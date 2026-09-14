@@ -38,7 +38,7 @@ $$\||\mathcal{X} - f(\mathcal{T})\||_F
 * **$\ell_1$ norm**
 
 $$\|\mathcal{X} - f(\mathcal{T})\|_1
-= \sum_{i,j,k}\bigl|\,x_{ijk} - [f(\mathcal{T})]_{ijk}\,\bigr|$$
+= \sum_{i,j,k}\bigl|\ x_{ijk} - [f(\mathcal{T})]_{ijk}\ \bigr|$$
 
 * **Kullback–Leibler (KL) divergence**, for nonnegative scalars $x, y \ge 0$:
 
